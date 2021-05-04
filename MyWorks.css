@@ -1,0 +1,48 @@
+.col-1{
+    float:left;
+    width:30%;
+}
+.col-2{
+    float:left;
+    width:70%;
+}
+.row:after{
+ content: "";
+ display: table;
+ clear:both;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.label-text{
+    padding:3px
+}
+
+.body-background {
+    background: #C5E1A5;
+}
+.container{
+    margin-left: 20%;
+    margin-top: 2%;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    padding:2% 2% 2% 2%;
+    width:60%;
+    background: rgb(114, 236, 76);
+}
+
+.containner {
+    margin: 0 auto;
+    display: table;
+}
+
+.form-control {
+    border-radius: 9px;
+    border: none;
+    height: 30px;
+    width: 140px;
+    padding-left: 20px;
+}
+.form-control:focus{
+    outline-color:rgb(122, 233, 31);
+    border-width: .5px;
+} 
